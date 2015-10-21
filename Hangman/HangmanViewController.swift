@@ -9,6 +9,14 @@
 import UIKit
 
 class HangmanViewController: UIViewController {
+    
+    @IBOutlet var past_guesses: UILabel!;
+    @IBOutlet var new_guess: UITextField!;
+    @IBOutlet var guess_btn: UIButton?;
+    @IBOutlet var new_game: UIButton?;
+    @IBOutlet var hangview: UIImageView!;
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
